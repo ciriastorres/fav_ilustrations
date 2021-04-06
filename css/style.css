@@ -1,0 +1,27 @@
+:root{
+    --dark-primary-color: #E64A19;
+    --light-primary-color: #FFCCBC;
+    --primary-color: #FF5722;
+    --text-icons: #FFFFFF;
+    --accent-color: #536DFE;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    height: 150px;
+    background-color: var(--primary-color);
+}
+
